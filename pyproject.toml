@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "python_hindi"
+version = "1.0.0"
+description = "Python in Hindi"
+authors = ["Karan Singh"]
+license = "BSD-4-Clause"
+readme = "README.md"
