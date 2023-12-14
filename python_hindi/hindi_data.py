@@ -1,99 +1,99 @@
 # functions:
-hebrew_builtins = {
+hindi_builtins = {
     # numbers
-    "": "abs",
-    "": "all",
-    "": "any",  # not sure about this translate: 'אחד' mean '1' in hebrew.
+    "mul": "abs",
+    "sab": "all",
+    "koi": "any",  
 
     # list
-    "": "len",
-    "": "min",
-    "": "max",
-    "": 'reversed',
-    "":"enumerate",
-    "":"map",
+    "lambai": "len",
+    "kam": "min", #nyuntam
+    "zyada": "max", #adhiktam
+    "ulta": 'reversed',
+    "ganana":"enumerate",
+    "manchitra":"map",
 
     # std
-    "": "print",
-    "": "input",
+    "bol": "print",
+    "input": "input",
 
     # errors
-    "": "ImportError",
-    "": "NameError",
-    "": "PermissionError",
-    "":"Exception",
-    "":"FileNotFoundError",
+    "AayatTruti": "ImportError",
+    "NaamTruti": "NameError",
+    "AnumatiTruti": "PermissionError",
+    "Apavad":"Exception",
+    "FileNahiMili":"FileNotFoundError",
     
 
     # strings
-    '': 'repr',
-    "": "exec",
-    "":"open"
+    'prat': 'repr',
+    "chalao": "exec",
+    "kholo":"open"
 }
 
 # keywords:
-hebrew_keywords = {
-    "":
-    "hebrew_python",  # TODO : I want to create another module for this.
+hindi_keywords = {
+    "banao":
+    "hindi_python",  # TODO : I want to create another module for this.
 
     # if and booleans:
-    "": "if",
-    "": "True",
-    "": "False",
-    "": "and",
-    "": "not",
-    "": "is",
-    "": "else",
-    "": "elif",  # אחרתאם ?
-    "": "or",
+    "yadi": "if",
+    "satya": "True",
+    "mithya": "False",
+    "aur": "and",
+    "nahi": "not",
+    "barabar": "is",
+    "anyatha": "else",
+    "anyathayadi": "elif",  # anyathayadi ?
+    "ya": "or",
 
     # loops
-    "": "for",
-    "": "in",
-    "": "range",
-    "": "break",
-    "": "while",
-    "": "continue",
+    "pratyek": "for",
+    "mein": "in",
+    "sima": "range",
+    "break": "break",
+    "jabtak": "while",
+    "jaari": "continue",
 
     # types:
-    "": "list",
-    "": "int",
-    "": "float",
-    "": "None",
-    "": "bool",
-    "":"str",
-    "": "set()",
-    '': 'אובייקט',
+    "suchi": "list",
+    "poornank": "int",
+    "dashansh": "float",
+    "Shunya": "None",
+    "bool": "bool",
+    "wakya":"str",
+    "set()": "set()",
+    'object': 'object',
 
     # imports
-    "": "from",
-    "": "import",
-    "": "as",
+    "se": "from",
+    "aayat": "import",
+    "jaise": "as",
 
     # classes and functions
-    "": "return",
-    "": "class",
-    "": "global",
-    "": "def",
-    "": "pass",
-    "": "yield",
+    "lautao": "return",
+    "kaksha": "class",
+    "vaishwik": "global",
+    "karm": "def",
+    "pass": "pass",
+    "utpann": "yield",
 
     # errors
-    "": "try",
-    "": "assert",
-    "": "raise",
-    "": "except",
-    "": "finally",
+    "koshish_karo": "try",
+    "yakin": "assert",
+    "badhao": "raise",
+    "siwaye": "except",
+    "antatah": "finally",
     
     # list
-    "": "round()",
-    "": "slice()",
-    "": "sorted()",
-    "": "sum()",
-    "": "type()",
+    "purnankan()": "round()",
+    "tod()": "slice()",
+    "wargit()": "sorted()",
+    "jod()": "sum()",
+    "prakar()": "type()",
 
     #
-    '': "with",
-    "": "del",
-    "": "lambda",
+    "sath": "with",
+    "hataayein": "del",
+    "lambda": "lambda",
 }
