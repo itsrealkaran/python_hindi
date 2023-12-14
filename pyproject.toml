@@ -2,15 +2,19 @@
 name = "python_hindi"
 version = "0.1.0"
 description = "Python in Hindi"
-authors = ["Karan Singh"]
+authors = [{ name= "Karan Singh", email= "itsrealkaran@outlook.com"}]
 license = "BSD-4-Clause"
+classifiers = [
+    "License :: OSI Approved :: BSD-4-Clause",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
 readme = "README.md"
 homepage = "https://github.com/itsrealkaran/python-hindi"
 
 [tool.poetry.dependencies]
 python = "^3.6"
 ideas = "^0.0.22"
-friendly-traceback = { version ="^0.4.36",optional = true}
 
 [tool.poetry.extras]
 errors = ["friendly", "friendly-traceback"]
