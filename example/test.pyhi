@@ -1,0 +1,5 @@
+sankhya = poornank(niwesh("Ek sankhya daalein: "))
+yadi (sankhya % 2) == 0:
+    bol("{0} sam hai".format(sankhya))
+anyatha:
+    bol("{0} visam hai".format(sankhya))

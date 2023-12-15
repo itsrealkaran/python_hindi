@@ -15,7 +15,7 @@ hindi_builtins = {
 
     # std
     "bol": "print",
-    "input": "input",
+    "niwesh": "input",
 
     # errors
     "AayatTruti": "ImportError",
