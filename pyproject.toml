@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python_hindi"
-version = "0.1.3"
+version = "0.1.2"
 description = "Python in Hindi"
 authors = ["Karan Singh <itsrealkaran@outlook.com>"]
 license = "BSD-4-Clause"
@@ -8,7 +8,7 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-homepage = "https://github.com/itsrealkaran/python-hindi"
+homepage = "https://github.com/itsrealkaran/python_hindi"
 
 [tool.poetry.dependencies]
 python = "^3.6"
@@ -29,4 +29,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.urls]
-issues = "https://github.com/itsrealkaran/python-hindi/issues"
+issues = "https://github.com/itsrealkaran/python_hindi/issues"
