@@ -1,0 +1,6 @@
+num = 0
+jabtak num < 10:
+    num += 1  
+    yadi (num % 2) == 0:
+        jari
+    bol(num)

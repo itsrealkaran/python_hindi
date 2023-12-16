@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python_hindi"
-version = "0.1.0"
+version = "0.1.3"
 description = "Python in Hindi"
 authors = ["Karan Singh <itsrealkaran@outlook.com>"]
 license = "BSD-4-Clause"

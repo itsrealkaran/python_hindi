@@ -1,0 +1,4 @@
+languages = ['Swift', 'Python', 'Go', 'JavaScript']
+# run a loop for each item of the list
+pratyek language mein languages:
+    bol(language)
